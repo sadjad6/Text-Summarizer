@@ -1,5 +1,40 @@
 # End to end Text-Summarizer-Project
 
+
+This repository contains an **end-to-end text summarization system** built using **Google’s Pegasus model** and fine-tuned on the **SAMSum dataset**. It is designed to generate concise summaries for dialogues using **transformers-based NLP models**. The project includes a **modular pipeline** for **data processing, model training, evaluation, API deployment, and continuous integration/continuous deployment (CI/CD).**
+
+---
+
+## 🚀 Features
+
+### 🔹 Data Processing & Preprocessing
+- Handles dataset **loading, tokenization, and augmentation**.
+
+### 🔹 Model Training & Evaluation
+- Fine-tunes **Pegasus (`google/pegasus-cnn_dailymail`)** on the **SAMSum dataset**.
+- Uses **ROUGE score** for performance evaluation.
+
+### 🔹 Pipeline Components
+- **Training pipeline**: Data ingestion, transformation, model training.
+- **Evaluation pipeline**: Generates predictions, computes metrics.
+- **Inference pipeline**: Deploys trained model for real-time summarization.
+
+### 🔹 FastAPI-based REST API
+- Exposes **endpoints** for real-time text summarization.
+- Supports **batch processing** for large-scale summarization.
+
+### 🔹 Docker Containerization
+- Containerized **FastAPI application** for easy deployment.
+
+### 🔹 AWS Deployment
+- Deployed using **AWS EC2, S3, Lambda, or ECS**.
+
+### 🔹 CI/CD Pipeline
+- Automates **testing, model training, and deployment** using **GitHub Actions**.
+
+### 🔹 Logging & Monitoring
+- Implements **structured logging** for tracking model performance and errors.
+
 ## Workflows
 
 1. Update config.yaml
