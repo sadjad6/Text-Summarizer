@@ -1,5 +1,11 @@
 # End to end Text-Summarizer-Project
 
+<p align="center">
+  <img src="./assets/text-summarizer-cover.png" alt="Text-Summarizer conceptual cover: PEGASUS NLP dialogue-to-summary illustration" width="600" />
+</p>
+
+*Conceptual project cover artwork.*
+
 
 This repository contains an **end-to-end text summarization system** built using **Google’s Pegasus model** and fine-tuned on the **SAMSum dataset**. It is designed to generate concise summaries for dialogues using **transformers-based NLP models**. The project includes a **modular pipeline** for **data processing, model training, evaluation, API deployment, and continuous integration/continuous deployment (CI/CD).**
 
